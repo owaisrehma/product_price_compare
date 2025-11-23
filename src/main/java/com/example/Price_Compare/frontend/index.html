@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Price Compare</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>PriceCompare</h1>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <div class="search-area">
+        <input id="searchInput" placeholder="Search product..." />
+        <button id="searchBtn">Search</button>
+      </div>
+
+      <div class="sort-area">
+        <select id="sortSelect">
+          <option value="none">Sort By</option>
+          <option value="low">Price: Low to High</option>
+          <option value="high">Price: High to Low</option>
+          <option value="rating">Rating</option>
+        </select>
+      </div>
+    </div>
+
+    <section id="products" class="product-list"></section>
+  </main>
+
+  <footer class="site-footer">Built with ❤️ — Demo</footer>
+
+  
+
+  <script src="app.js"></script>
+</body>
+</html>
